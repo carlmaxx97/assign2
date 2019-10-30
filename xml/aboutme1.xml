@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang='en'>
+	<head>
+		<meta charset="UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<title>Assignment 2-Costume Gallery</title>
+		<link rel="stylesheet" type="text/css" href="styles/style.css"/>
+	</head>
+	<body>
+		<div id="container">
+		
+			<!--Header-->
+			<a href="index.html">
+				<div id="header">
+					<h1>Costume Gallery</h1>
+				</div>
+			</a>
+		  
+		    <!--Menu Bar-->
+			<div class="navbar">
+			  <a href="index.html">Home</a>
+			  <div class="dropdown">
+				<button class="dropbtn">Category</button>
+				<div class="dropdown-content">
+				  <a href="marvel_category.html">Marvel</a>
+				  <a href="star_wars_category.html">Star Wars</a>
+				  <a href="minion_category.html">Minion</a>
+				</div>
+			  </div> 
+			  <div class="dropdown">
+				<button class="dropbtn">About me</button>
+				<div class="dropdown-content">
+				  <a href="aboutme1.html">About Harold</a>
+				  <a href="aboutme2.html">About Chua Chung Long</a>
+				  <a href="aboutme3.html">About Philip</a>
+				</div>
+			  </div> 
+			</div>
+			
+			<!--Content-->
+			<div id="body">
+				<div class="row">
+					<div class="about_div">Harold Mah Wei Jing</div>
+					<div class="column_item_25_image">
+						<img src="images/Profile/Harold.jpg" alt="Harold" class="img_layout"/>
+					</div>
+					<div class="column_item_25">
+						<table>
+							<tr>
+								<td class="center_cell"><label><strong>Student Id</strong></label></td>
+								<td><label class="id_font">101228311</label></td>
+								
+							</tr>
+							<tr>
+								<td class="center_cell"><label><strong>Date of Birth</strong></label></td>
+								<td><label>18-05-1997</label></td>
+								
+							</tr>
+							<tr>
+								<td class="center_cell"><label><strong>Gender</strong></label></td>
+								<td><label>Male</label></td>
+								
+							</tr>
+							<tr>
+								<td class="center_cell"><label><strong>Age</strong></label></td>
+								<td><label>22</label></td>
+							</tr>
+							<tr>
+								<td class="center_cell"><label><strong>Status</strong></label></td>
+								<td><label>Single</label></td>
+							</tr>
+							<tr>
+								<td class="center_cell"><label><strong>Home Town</strong></label></td>
+								<td><label>Sibu</label></td>
+							</tr>
+							<tr>
+								
+								<td class="center_cell"><label><strong>Course</strong></label></td>
+								<td class="info_cell"><label class="course_color">Bachelor of Computer Science</label></td>
+							</tr>
+							<tr>
+								
+								<td class="center_cell"><label><strong>Hobby</strong></label></td>
+								<td>
+									<ul>
+										<li>Playing Piano</li>
+										<li>Playing Sports</li>
+									</ul>
+								</td>
+							</tr>
+						</table>
+					</div>
+					<div class="column">
+						<table class="table_style">
+							<tr>
+								<td class="center_cell"><label><strong>Index page</strong></label></td>
+								<td><label>Giving the design's idea.</label></td>
+								
+							</tr>
+							<tr>
+								<td class="center_cell"><label><strong>Enquiry page</strong></label></td>
+								<td><label>Changing the layout design by adding CSS.</label></td>
+							</tr>
+							<tr>
+								<td class="center_cell"><label><strong>Disclaimer page</strong></label></td>
+								<td><label>Changing the layout design by adding CSS.</label></td>
+								
+							</tr>
+							<tr>
+								<td class="center_cell"><label><strong>Enhancements page</strong></label></td>
+								<td><label>Searching videos and giving the suggestion of the enhancements idea</label></td>
+								
+							</tr>
+							<tr>
+								<td class="center_cell"><label><strong>Navigation page</strong></label></td>
+								<td><label>Giving suggestion of design and category idea.</label></td>
+								
+							</tr>
+							<tr>
+								<td class="center_cell"><label><strong>Product page</strong></label></td>
+								<td><label>Searching the picture and information and do coding.</label></td>
+								
+							</tr>
+							<tr>
+								<td class="center_cell"><label><strong>About me page</strong></label></td>
+								<td><label>Write the introduction of myself and design the layout.</label></td>
+								
+							</tr>
+							
+						</table>
+					</div>
+				</div>
+				<br/>
+				<div class="row">
+					<div class="column">
+						<p><strong>Sibu</strong> is the one of three city in the sarawak, it is locate at intersaction of Rejang river and the Igan river.<br/><br/>
+						This town is located on the island of Borneo and covers an area of 129.5 square kilometres (50.0 sq mi).<br/><br/>
+						Sibu consist four type of the people which is Chinese, Iban, Melayu and Melanau.<br/><br/>
+						At the past of 1950, Sibu used to be the largest city in Sarawak. The population of Sibu is arround 16000 in 2010. The population of Sibu is continues increasely</p>
+					</div>
+					<div class="column_item_25">
+						<iframe src="https://www.youtube.com/embed/GAwu9dN7wPU"></iframe>
+					</div>
+					<div class="column_item_25">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3986.549479692073!2d111.8341098153287!3d2.3194222583379056!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31f77f9e48d20aa1%3A0x6c594aed4e045562!2s9%2C%20Lor%20Tun%20Abang%20Haji%20Openg%2020%2C%20Kampung%20Nangka%2C%2096000%20Sibu%2C%20Sarawak!5e0!3m2!1sen!2smy!4v1569333743157!5m2!1sen!2smy"></iframe>
+					</div>
+				</div>
+			</div>
+			<!--Footer-->
+			<div id="footer">
+				<p class="footer-links">
+					<a href="index.html">Home</a>
+					·
+					<a href="enquiry.html">Enquiry</a>
+					·
+					<a href="disclaimer.html">Disclaimer</a>
+					·
+					<a href="enhancements.html">Enhancements</a>
+				</p>
+				
+				<p class="footer-company-name">
+					Email: <a href="mailto:101228311@students.swinburne.edu.my">Harold Mah Wei Jing</a> . <a href="mailto:101227936@students.swinburne.edu.my">Chua Chung Long</a> . <a href="mailto:101229644@students.swinburne.edu.my">Philip Tiong Kwong Wei</a> 
+					<br/>Costume Gallery &#169; 2019
+				</p>	
+			</div>
+			
+		</div>
+	</body>
+</html> 

@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang='en'>
+	<head>
+		<meta charset="UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<!--Link to Css File-->
+		<link rel="stylesheet" type="text/css" href="styles/style.css"/>
+		<title>Assignment 2-Costume Gallery</title>
+		<script src="script/enhancements.js"></script>
+		<script src="script/script.js"></script>
+	</head>
+	<body onload="onload_menubar_product()">
+		<div id="container">
+		
+			<!--Header-->
+			<a href="index.html">
+				<div id="header">
+					<h1>Costume Gallery</h1>
+				</div>
+			</a>
+		  
+		    <!--Menu Bar-->
+			<div class="navbar">
+			  <a href="index.html">Home</a>
+			  <div class="dropdown">
+				<button class="dropbtn">Category</button>
+				<div class="dropdown-content">
+				  <a href="marvel_category.html">Marvel</a>
+				  <a href="star_wars_category.html">Star Wars</a>
+				  <a href="minion_category.html">Minion</a>
+				</div>
+			  </div> 
+			  <div class="dropdown">
+				<button class="dropbtn">About me</button>
+				<div class="dropdown-content">
+				  <a href="aboutme1.html">About Harold</a>
+				  <a href="aboutme2.html">About Chua Chung Long</a>
+				  <a href="aboutme3.html">About Philip</a>
+				</div>
+			  </div> 
+			</div>
+			
+			<!--Content-->
+			<div id="body">
+				<div class="row">
+					<div class="column">
+						<img src="images/Minion/babys-kevin-minion-costume(baby).jpg" alt="Minion costume picture" id="myImg" class="center" onclick="picZoom()"/>
+						<div>
+							<p class="photoCapCenter">Click to zoom</p>
+						</div>
+						<div id="myModal" class="modal">
+							<span class="close">&#215;</span>
+							<img src="images/Minion/babys-kevin-minion-costume(baby).jpg" alt="Minion costume picture" class="modal-content" id="img01"/>
+						</div>
+					</div>
+					<div class="column">
+						<form>
+						<h1 class="c_center">Baby's Kevin Minion Costume</h1>
+							<table>
+							<tr>
+								<td class="center_cell">Product ID:</td>
+								<td>MIB-A001</td>
+							</tr>
+							<tr>
+								<td class="center_cell">Price:</td>
+								<td>RM 300.00</td>
+							</tr>
+							<tr>
+								<td class="center_cell">Includes:</td>
+								<td>Hat with eyes</td>
+							</tr>
+							<tr>
+								<td class="center_cell">Description:</td>
+								<td>
+									“Banana!” Minions are too cute and perfect for the babies to dress up as,
+									don’t you agree? These costumes of Kevin, the Minion will definitely meet
+									your expectation of your baby to be a minion. All baby products are made of 
+									safe material in this website. Material used: 100% Polyester.
+								</td>
+							</tr>
+							<tr>
+								<td class="center_cell">Shipping:</td>
+								<td>
+									Express Delivery (DHL): RM50 - Delivery Time: 48h - 72h on weekdays.<br/>
+									<p><strong>*Note:</strong> Products are being shipped by Airfreight. Some products,
+									due to their size or amount, cannot be shipped via this shipping method.
+									For situation as stated, please use the enquiry form at our website so we
+									will able to discuss the solution.</p>
+								</td>
+							</tr>
+							<tr>
+								<td class="center_cell">Returns:</td>
+								<td>
+									Customers are able to return their goods via the same
+									courier service or contact us via 037-8844562 that was used 
+									and refund will be made within 7 days of working day, but only under
+									these circumstances:<br/>
+									<p><strong>Unused</strong> – Only within 7 day(s) of the date purchased.
+									Days required will be change varies on the amount of item purchase.<br/>
+									<strong>Damaged Product</strong> – Only items that are damaged while it was on Shipment are
+									illegible for this option.<br/>
+									<strong>Product Missing</strong> – Only when the receiver did not received the item within 14 days,
+									this is applicable for refund.<br/></p>
+									Otherwise, legal action shall be taken to solve the problem case.
+								</td>
+							</tr>
+							<tr>
+								<td class="center_cell">Size:</td>
+								<td>
+									<input type="radio" name="size" value="S" />S
+									<input type="radio" name="size" value="M" />M
+									<input type="radio" name="size" value="L" />L
+									<input type="radio" name="size" value="XL" />XL
+								</td>
+							</tr>
+							<tr>
+								<td class="center_cell">Quantity:</td>
+								<td>
+									<select>
+										<option value="1">1</option>
+										<option value="2">2</option>
+										<option value="3">3</option>
+										<option value="4">4</option>
+										<option value="5">5</option>
+										<option value="6">6</option>
+										<option value="7">7</option>
+										<option value="8">8</option>
+										<option value="9">9</option>
+										<option value="10">10</option>
+									</select>
+								</td>
+							</tr>
+							<tr>
+								<td class="center_cell">Duration:</td>
+								<td>
+									<select name="duration" id="duration">
+										<option value="1">1</option>
+										<option value="2">2</option>
+										<option value="3">3</option>
+										<option value="4">4</option>
+										<option value="5">5</option>
+									</select>&#8195; Day(s)
+								</td>
+							</tr>
+							<tr>
+								<td class="center_cell">Payment Method:</td>
+								<td>
+									<input type="radio" name="pay" value="Online Banking" />Online Banking
+									<input type="radio" name="pay" value="Credit Card" />Credit Card
+								</td>
+							</tr>
+							<tr>
+								<td class="center_cell">Refrences:</td>
+								<td>
+									<a href="https://www.funidelia.my/babys-kevin-minion-costume-48171.html" target="_blank">www.fundidella.my</a><br/>
+								</td>
+							</tr>
+							</table>
+						<input type="button" class="button" value="Rental" onclick="rent(10)" />
+						</form>
+					</div>
+				</div>
+			</div>
+			
+			<!--Footer-->
+			<div id="footer">
+				<p class="footer-links">
+					<a href="index.html">Home</a>
+					·
+					<a href="enquiry.html">Enquiry</a>
+					·
+					<a href="disclaimer.html">Disclaimer</a>
+					·
+					<a href="enhancements.html">Enhancements</a>
+					·
+					<a href="enhancements2.html">Javascript Enhancements</a>
+				</p>
+				
+				<p class="footer-company-name">
+					Email: <a href="mailto:101228311@students.swinburne.edu.my">Harold Mah Wei Jing</a> . <a href="mailto:101227936@students.swinburne.edu.my">Chua Chung Long</a> . <a href="mailto:101229644@students.swinburne.edu.my">Philip Tiong Kwong Wei</a> 
+					<br/>Costume Gallery &#169; 2019
+				</p>	
+			</div>
+			
+		</div>
+	</body>
+</html>
